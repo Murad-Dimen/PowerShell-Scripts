@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <style type='text/css'>
+    body { background-color:#DCDCDC; }
+    table { border:1px solid gray; font:normal 12px verdana, arial, helvetica, sans-serif; border-collapse: collapse; padding-left:30px; padding-right:30px; }
+    th { color:black; text-align:left; border: 1px solid black; font:normal 16px verdana, arial, helvetica, sans-serif; font-weight:bold; background-color: #6495ED; padding-left:6px; padding-right:6px; }
+    td.up { background-color:#32CD32; border: 1px solid black; }
+    td.down { background-color:#B22222; border: 1px solid black; }
+    td { border: 1px solid black; padding-left:6px; padding-right:6px; }
+    div.red { background-color:#B22222; float:left; text-align:right; }
+    div.green { background-color:#32CD32; float:left; }
+    div.free { background-color:#7FFF00; float:left; text-align:right; }
+    a.detail { cursor:pointer; color:#1E90FF; text-decoration:underline; }
+    </style>
+    </head>
+    <body>
+    <h1>Disk Encryption Status Report</h1>
+    <p>
+        <table class="Main">
+            <tr><th style="width:175px;">Computer Name</th><th style="width:175px;">Drive Letter</th><th>Encrypted</th></tr>
+            <tr><td>PC24</td><td>D:</td><td class='up'>True</td></tr>
+            <tr><td>PC24</td><td>C:</td><td class='up'>True</td></tr>
+            <tr><td>PC62</td><td>C:</td><td class='up'>True</td></tr>
+            <tr><td>PC109</td><td>C:</td><td class='up'>True</td></tr>
+            <tr><td>PC109</td><td>E:</td><td class='down'>False</td></tr>
+            <tr><td>PC109</td><td>F:</td><td class='up'>True</td></tr>
+        </table>
+    </body>
+    </html>
